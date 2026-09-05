@@ -198,10 +198,10 @@ export const navigationData: {
 };
 
 export const heroData = {
-  eyebrow: "CLOUD SERVER • HIGH PERFORMANCE INFRASTRUCTURE",
-  h1Prefix: "Cloud Server ",
-  h1Highlight: "hiệu năng cao.",
-  h1Suffix: " Sẵn sàng trong vài phút.",
+  eyebrow: "HIGH PERFORMANCE",
+  h1Prefix: "Cloud Server ",
+  h1Highlight: "hiệu năng cao.",
+  h1Suffix: " Sẵn sàng trong vài phút.",
   description:
     "Hạ tầng Cloud hiệu năng cao với NVMe Storage, network tốc độ cao và khả năng mở rộng linh hoạt cho website, ứng dụng và hệ thống doanh nghiệp.",
   priceStartingAt: "Chỉ từ 149.000đ/tháng",
@@ -456,19 +456,19 @@ export const controlPanelMock: ControlPanelData = {
 export const deploymentSteps: DeploymentStep[] = [
   {
     stepNumber: "01",
-    title: "Chọn cấu hình",
+    title: "Chọn cấu hình",
     description: "Tùy biến vCPU, RAM và dung lượng NVMe Storage phù hợp với nhu cầu sử dụng thực tế.",
     detail: "Từ 1 vCPU - 1GB RAM cho dev đến cụm 16 vCPU - 64GB RAM cho production database.",
   },
   {
     stepNumber: "02",
-    title: "Chọn hệ điều hành hoặc Ứng dụng",
+    title: "Chọn hệ điều hành hoặc Ứng dụng",
     description: "Cài đặt tức thì Ubuntu, Debian, AlmaLinux, Windows Server hoặc 1-Click Apps như Docker, WordPress.",
     detail: "Hỗ trợ Cloud-init, SSH Key injection tự động ngay từ bước khởi tạo.",
   },
   {
     stepNumber: "03",
-    title: "Deploy Server",
+    title: "Deploy Server",
     description: "Hệ thống tự động kích hoạt tài nguyên, cấp phát IP tĩnh và sẵn sàng hoạt động trong < 60 giây.",
     detail: "Nhận thông tin root SSH qua dashboard và email ngay khi hoàn tất.",
   },
@@ -606,7 +606,7 @@ export const useCases: UseCaseItem[] = [
   {
     id: "website",
     tabLabel: "Website",
-    title: "Website tốc độ cao & Hệ thống eCommerce",
+    title: "Website tốc độ cao & Hệ thống eCommerce",
     subtitle: "Xử lý hàng triệu lượt truy cập mà không gặp gián đoạn",
     description:
       "Từ WordPress, WooCommerce đến website tin tức doanh nghiệp và cổng thông tin lớn. Hạ tầng NVMe Storage kết hợp cùng đường truyền mạng trong nước 300 Mbps+ giúp thời gian phản hồi TTFB dưới 50ms.",
@@ -648,7 +648,7 @@ export const useCases: UseCaseItem[] = [
   {
     id: "database",
     tabLabel: "Database",
-    title: "Cơ sở dữ liệu hiệu năng cao",
+    title: "Cơ sở dữ liệu hiệu năng cao",
     subtitle: "Truy xuất IOPS cực đại cho MySQL, PostgreSQL, MongoDB, Redis",
     description:
       "Ổ cứng NVMe Enterprise với thông lượng đọc ghi tuần tự >3.2 GB/s và hơn 500.000 IOPS ngẫu nhiên, giúp giải quyết triệt để nút thắt cổ chai I/O của hệ quản trị cơ sở dữ liệu quy mô lớn.",
@@ -669,7 +669,7 @@ export const useCases: UseCaseItem[] = [
   {
     id: "development",
     tabLabel: "Development",
-    title: "Môi trường Dev, CI/CD & Self-Hosting",
+    title: "Môi trường Dev, CI/CD & Self-Hosting",
     subtitle: "Nâng cao năng suất cho đội ngũ kỹ thuật và DevOps",
     description:
       "Triển khai runner cho GitLab CI, GitHub Actions, xây dựng môi trường staging test app, hoặc tự lưu trữ các công cụ nội bộ như n8n, Coolify, Supabase mà không lo phát sinh chi phí billing khó đoán.",
@@ -690,7 +690,7 @@ export const useCases: UseCaseItem[] = [
   {
     id: "business",
     tabLabel: "Business",
-    title: "Hệ thống Quản trị & Ứng dụng Doanh nghiệp",
+    title: "Hệ thống Quản trị & Ứng dụng Doanh nghiệp",
     subtitle: "Độ sẵn sàng 99.99% cho ERP, CRM, Kế toán và Dữ liệu công ty",
     description:
       "Lưu trữ và vận hành các phần mềm nghiệp vụ quan trọng (Odoo, ERP, CRM, phần mềm kế toán) trên cụm máy chủ đặt tại Data Center chuẩn Quốc tế tại TP.HCM, đảm bảo bảo mật và truy cập liên tục 24/7.",
@@ -712,7 +712,7 @@ export const useCases: UseCaseItem[] = [
 
 export const dataCenterSpecs: DataCenterSpecs = {
   location: "TP. Hồ Chí Minh, Việt Nam",
-  facility: "Viettel IDC Ho Chi Minh City",
+  facility: "Viettel IDC Ho Chi Minh City",
   regionCode: "SGN-01",
   metrics: [
     {
@@ -894,8 +894,8 @@ export const testimonials: TestimonialItem[] = [
 ];
 
 export const migrationCtaData = {
-  title: "Đang sử dụng VPS ở nhà cung cấp khác?",
-  subtitle: "Chuyển hệ thống sang BigCloud dễ dàng",
+
+  subtitle: "Chuyển dữ liệu dễ dàng",
   description:
     "Đội ngũ kỹ thuật của BigCloud sẵn sàng hỗ trợ bạn chuyển đổi website, cơ sở dữ liệu và cấu hình máy chủ từ nhà cung cấp cũ sang BigCloud hoàn toàn miễn phí với downtime tối thiểu.",
   primaryCtaText: "Yêu cầu hỗ trợ Migration",
@@ -978,7 +978,7 @@ export const faqList: FaqItem[] = [
 ];
 
 export const finalCtaData = {
-  heading: "Sẵn sàng khởi chạy Cloud Server?",
+  heading: "Sẵn sàng khởi chạy Cloud Server?",
   description:
     "Chọn cấu hình phù hợp và đưa workload của bạn lên hạ tầng Cloud hiệu năng cao của BigCloud chỉ trong vài phút.",
   primaryCtaText: "Khởi tạo Cloud Server",

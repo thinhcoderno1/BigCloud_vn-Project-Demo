@@ -18,8 +18,8 @@ export const FaqSection: React.FC = () => {
       <Container size="narrow">
         <SectionHeader
           eyebrow="FREQUENTLY ASKED QUESTIONS"
-          title="Câu hỏi thường gặp về"
-          titleHighlight="Cloud Server"
+          title="Câu hỏi thường gặp về"
+          titleHighlight="Cloud Server"
           description="Giải đáp các thắc mắc phổ biến về cấu hình, cách thức thanh toán, cơ chế snapshot và hỗ trợ kỹ thuật tại BigCloud."
           align="center"
         />

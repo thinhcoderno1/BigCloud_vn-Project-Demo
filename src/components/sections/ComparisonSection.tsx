@@ -10,8 +10,8 @@ export const ComparisonSection: React.FC = () => {
       <Container size="wide">
         <SectionHeader
           eyebrow="ARCHITECTURE COMPARISON"
-          title="Cloud Server khác gì so với"
-          titleHighlight="VPS truyền thống?"
+          title="Cloud Server khác gì so với"
+          titleHighlight="VPS truyền thống?"
           description="Sự khác biệt cốt lõi nằm ở hạ tầng điện toán phân tán, khả năng mở rộng tài nguyên không cần cài đặt lại và độ tin cậy phần cứng cao hơn."
           align="center"
         />

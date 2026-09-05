@@ -10,8 +10,8 @@ export const TrustSection: React.FC = () => {
       <Container size="wide">
         <SectionHeader
           eyebrow="ENTERPRISE ECOSYSTEM"
-          title="Hạ tầng được xây dựng trên"
-          titleHighlight="nền tảng công nghệ hàng đầu"
+          title="Hạ tầng được xây dựng trên"
+          titleHighlight="nền tảng công nghệ hàng đầu"
           description="Hợp tác cùng các nhà sản xuất phần cứng, giải pháp mạng và hệ điều hành tiêu chuẩn công nghiệp thế giới."
           align="center"
         />

@@ -22,8 +22,8 @@ export const PricingSection: React.FC = () => {
       <Container size="wide">
         <SectionHeader
           eyebrow="TRANSPARENT PRICING"
-          title="Cloud Server phù hợp với"
-          titleHighlight="mọi quy mô"
+          title="Cloud Server phù hợp với"
+          titleHighlight="mọi quy mô"
           description="Bắt đầu với cấu hình phù hợp hôm nay và nâng cấp tài nguyên linh hoạt khi hệ thống phát triển. Chi phí cố định minh bạch, không phí ẩn."
           align="center"
         />

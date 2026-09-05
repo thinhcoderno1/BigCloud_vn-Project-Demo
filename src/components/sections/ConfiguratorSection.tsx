@@ -51,7 +51,7 @@ export const ConfiguratorSection: React.FC = () => {
       <Container size="wide">
         <SectionHeader
           eyebrow="CUSTOM RESOURCE BUILDER"
-          title="Cần cấu hình riêng cho"
+          title="Cần cấu hình riêng cho"
           titleHighlight="workload của bạn?"
           description="Tùy chỉnh linh hoạt số vCPU, dung lượng RAM, ổ đĩa NVMe và băng thông mạng theo đúng nhu cầu thực tế."
           align="center"

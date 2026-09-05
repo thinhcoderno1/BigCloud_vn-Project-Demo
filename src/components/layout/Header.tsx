@@ -26,10 +26,10 @@ export const Header: React.FC = () => {
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-250 ${
+      className={`fixed top-0 left-0 right-0 z-50 py-[18px] transition-all duration-250 ${
         isScrolled
-          ? "bg-white/95 backdrop-blur-md border-b border-border shadow-subtle py-3.5"
-          : "bg-white/80 backdrop-blur-sm border-b border-transparent py-4.5"
+          ? "bg-white/95 backdrop-blur-md border-b border-border shadow-subtle"
+          : "bg-white/80 backdrop-blur-sm border-b border-transparent"
       }`}
     >
       <Container size="wide">

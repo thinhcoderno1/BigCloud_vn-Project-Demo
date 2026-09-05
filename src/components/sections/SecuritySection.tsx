@@ -11,7 +11,7 @@ export const SecuritySection: React.FC = () => {
         <SectionHeader
           eyebrow="ENTERPRISE-GRADE SECURITY"
           title="Security và Availability được"
-          titleHighlight="tích hợp sâu từ hạ tầng"
+          titleHighlight="tích hợp sâu từ hạ tầng"
           description="Chúng tôi thiết kế hệ thống bảo mật đa lớp từ tầng vật lý data center, lớp mạng truyền tải cho đến từng phiên bản máy chủ ảo hóa KVM."
           align="center"
         />

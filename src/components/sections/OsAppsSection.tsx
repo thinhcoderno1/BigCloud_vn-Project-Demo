@@ -5,61 +5,11 @@ import { Container } from "@/components/ui/Container";
 import { SectionHeader } from "@/components/ui/SectionHeader";
 import { Badge } from "@/components/ui/Badge";
 import { osCatalog, appCatalog } from "@/data/bigcloud";
-import {
-  Terminal,
-  Server,
-  Shield,
-  Cpu,
-  Layers,
-  Monitor,
-  Boxes,
-  Globe,
-  Workflow,
-  LayoutGrid,
-  Code2,
-  Flame,
-  FolderGit2,
-  GitBranch,
-  Check,
-} from "lucide-react";
+import { Server, Boxes, Check } from "lucide-react";
+import { CatalogLogos } from "./CatalogLogos";
 
 export const OsAppsSection: React.FC = () => {
   const [activeTab, setActiveTab] = useState<"os" | "app">("os");
-
-  const getIcon = (iconName: string) => {
-    switch (iconName) {
-      case "Terminal":
-        return <Terminal className="w-5 h-5 text-orange-500" />;
-      case "Server":
-        return <Server className="w-5 h-5 text-rose-500" />;
-      case "Shield":
-        return <Shield className="w-5 h-5 text-blue-500" />;
-      case "Cpu":
-        return <Cpu className="w-5 h-5 text-emerald-500" />;
-      case "Layers":
-        return <Layers className="w-5 h-5 text-purple-500" />;
-      case "Monitor":
-        return <Monitor className="w-5 h-5 text-sky-500" />;
-      case "Boxes":
-        return <Boxes className="w-5 h-5 text-sky-600" />;
-      case "Globe":
-        return <Globe className="w-5 h-5 text-blue-600" />;
-      case "Workflow":
-        return <Workflow className="w-5 h-5 text-pink-500" />;
-      case "LayoutGrid":
-        return <LayoutGrid className="w-5 h-5 text-purple-600" />;
-      case "Code2":
-        return <Code2 className="w-5 h-5 text-emerald-600" />;
-      case "Flame":
-        return <Flame className="w-5 h-5 text-amber-500" />;
-      case "FolderGit2":
-        return <FolderGit2 className="w-5 h-5 text-red-500" />;
-      case "GitBranch":
-        return <GitBranch className="w-5 h-5 text-orange-600" />;
-      default:
-        return <Server className="w-5 h-5 text-primary" />;
-    }
-  };
 
   const currentItems = activeTab === "os" ? osCatalog : appCatalog;
 
@@ -68,8 +18,8 @@ export const OsAppsSection: React.FC = () => {
       <Container size="wide">
         <SectionHeader
           eyebrow="READY-TO-USE ENVIRONMENTS"
-          title="Triển khai môi trường"
-          titleHighlight="bạn cần trong 1 click"
+          title="Triển khai môi trường"
+          titleHighlight="bạn cần trong 1 click"
           description="Lựa chọn hệ điều hành Linux/Windows nguyên bản hoặc cài đặt sẵn các template ứng dụng và DevOps stack phổ biến."
           align="center"
         />
@@ -114,9 +64,7 @@ export const OsAppsSection: React.FC = () => {
             >
               <div>
                 <div className="flex items-start justify-between gap-2 mb-3">
-                  <div className="w-10 h-10 rounded-lg bg-white border border-slate-200 flex items-center justify-center shadow-subtle shrink-0">
-                    {getIcon(item.iconName)}
-                  </div>
+                  <CatalogLogos id={item.id} />
                   {item.badge && (
                     <Badge variant="primary" size="sm">
                       {item.badge}

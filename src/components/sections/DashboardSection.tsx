@@ -60,8 +60,8 @@ export const DashboardSection: React.FC = () => {
       <Container size="wide">
         <SectionHeader
           eyebrow="UNIFIED CONTROL PANEL"
-          title="Quản lý Cloud Server trong"
-          titleHighlight="một giao diện trực quan"
+          title="Quản lý Cloud Server trong"
+          titleHighlight="một giao diện trực quan"
           description="Tất cả thao tác vận hành cơ bản: theo dõi metric thời gian thực, reboot, snapshot, cấu hình firewall và scale tài nguyên được gói gọn trong dashboard hiện đại."
           align="center"
         />

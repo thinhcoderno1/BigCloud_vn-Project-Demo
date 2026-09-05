@@ -45,8 +45,8 @@ export const UseCasesSection: React.FC = () => {
       <Container size="wide">
         <SectionHeader
           eyebrow="WORKLOAD OPTIMIZATION"
-          title="Một nền tảng Cloud cho"
-          titleHighlight="nhiều mục đích sử dụng"
+          title="Một nền tảng Cloud cho"
+          titleHighlight="nhiều mục đích sử dụng"
           description="Kiến trúc linh hoạt đáp ứng từ website thương mại điện tử, backend API microservices cho đến hệ thống quản trị doanh nghiệp quy mô lớn."
           align="center"
         />

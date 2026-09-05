@@ -10,8 +10,8 @@ export const DeploymentStepsSection: React.FC = () => {
       <Container size="wide">
         <SectionHeader
           eyebrow="FAST ONBOARDING"
-          title="Từ đăng ký đến Cloud Server"
-          titleHighlight="chỉ trong 3 bước"
+          title="Từ đăng ký đến Cloud Server"
+          titleHighlight="chỉ trong 3 bước"
           description="Quy trình khởi tạo máy chủ được tự động hoá toàn diện, giúp bạn tiết kiệm thời gian thiết lập và nhanh chóng bắt tay vào công việc."
           align="center"
         />

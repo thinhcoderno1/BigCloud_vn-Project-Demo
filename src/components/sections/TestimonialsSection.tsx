@@ -10,8 +10,8 @@ export const TestimonialsSection: React.FC = () => {
       <Container size="wide">
         <SectionHeader
           eyebrow="CUSTOMER EXPERIENCES"
-          title="Được tin dùng bởi các"
-          titleHighlight="đội ngũ kỹ thuật & startup"
+          title="Được tin dùng bởi các"
+          titleHighlight="đội ngũ kỹ thuật & startup"
           description="Lắng nghe chia sẻ từ các kỹ sư phần mềm, Tech Lead và Quản lý hạ tầng đã và đang vận hành hệ thống cùng BigCloud."
           align="center"
         />
